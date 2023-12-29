@@ -58,7 +58,7 @@ button {
   width: calc((100% - 48px) / 3); 
   box-sizing: border-box; 
 }
-.sl-wrapper.simple-lightbox {
+.simple-lightbox {
   background: rgba(46, 47, 66, 0.80);
 }
 .gallery-image {
