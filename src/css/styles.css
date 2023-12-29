@@ -1,6 +1,46 @@
 * {
   box-sizing: border-box;
 }
+body {
+  font-family: var(--prymary-font);
+  background-color: var(--prymary-bg-color);
+  color: var(--prymary-text-color);
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style-type: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+button {
+  cursor: pointer;
+}
+
+.link {
+  text-decoration: none;
+}
+
 
 .gallery {
   display: flex;
