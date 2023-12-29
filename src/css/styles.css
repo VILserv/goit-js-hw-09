@@ -80,9 +80,7 @@ button {
   display: flex;
   flex-direction: column;
   padding-bottom: 8px;
-
   color: #2E2F42;
-
   font-family: Montserrat;
   font-size: 16px;
   line-height: 1.5;
@@ -94,17 +92,23 @@ button {
   height: 40px;
   padding-left: 8px;
   padding-right: 8px;
-
+  font-family: Montserrat;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
   border-radius: 4px;
   border: 1px solid #808080;
 }
 
 .feedback-form label textarea {
   width: 360px;
-  height: 300px;
+  height: 80px;
   padding: 8px;
   resize: none;
-
+  font-family: Montserrat;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
   border-radius: 4px;
   border: 1px solid #808080;
 }
@@ -112,17 +116,15 @@ button {
 .feedback-form button {
   width: 86px;
   height: 40px;
+  display: inline-flex;
   padding: 8px 16px;
-
   justify-content: center;
   align-items: center;
-
+  gap: 10px;
   border-radius: 8px;
   background-color: #4E75FF;
   outline: transparent;
   border-color: transparent;
-  
-
   color: #FFF;
   font-family: Montserrat;
   font-size: 16px;
